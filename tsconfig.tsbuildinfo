@@ -1907,7 +1907,7 @@
         "affectsGlobalScope": false
       },
       "./src/application.ts": {
-        "version": "9469876bbe150e1835f464ac50f82ddfc1a4e18b9702777c643f1c0995374aed",
+        "version": "2b48690f5ae29b5bae4d3dd5ec6b120b7658819ee82cfe7fddd8d9231f3be665",
         "signature": "d989ef846a85b05cd4e65acc749a9c7b492b884deafbc59982c338a9bd3f32d2",
         "affectsGlobalScope": false
       },
@@ -1931,19 +1931,9 @@
         "signature": "f36918c2c4380ab344448147b6de70cc456e9efbcb462ac6ac3f4c24269c8016",
         "affectsGlobalScope": false
       },
-      "./src/models/user-credentials.model.ts": {
-        "version": "9706110b9ee2f9aab5b5cc14c1f280bf8a878756fae29fca3e48825baaf0414e",
-        "signature": "3baff32625f3adc98412232739f7c3ecf605f70b0f884cc673437dbf814c702e",
-        "affectsGlobalScope": false
-      },
-      "./src/models/user.model.ts": {
-        "version": "86bbc8f740e14493fc2ab8492a5bd49bd4d050ead043da36bf5dbb16e0cdd654",
-        "signature": "88ab6f2f01318b039b30030f96c159c7c5c8629f350a833b44b6995db646ad0f",
-        "affectsGlobalScope": false
-      },
       "./src/models/index.ts": {
-        "version": "8e0a54f616cdfc2751c1d1990d5abebb8b633543d69f2aebaf9a83a362e1d7ca",
-        "signature": "eba1a0532621ee5ca0ffd4f545e6d6eefe82686e478ba4fcd462625f7c695249",
+        "version": "3239a822ef0182547c65466b88b22f90330ae369ea8701e82486eed84cb2bb10",
+        "signature": "4bb30bc881aaa5f0532df9457e25909cb8c4c611ab304c0ddc13bb3cf4987284",
         "affectsGlobalScope": false
       },
       "./src/__tests__/helpers.ts": {
@@ -2062,23 +2052,13 @@
         "affectsGlobalScope": false
       },
       "./src/repositories/todo.repository.ts": {
-        "version": "de4a769ad9af5928d136199bbe0b565ab584a66ac2b50c712942255380c19074",
-        "signature": "bf33159195a2e151212001b67c6661617da49d4f6fa05dddc3186a21d8b26ef3",
-        "affectsGlobalScope": false
-      },
-      "./src/repositories/user.repository.ts": {
-        "version": "864341054ed2ee1b5234d0114b9beeed2622fc06549b0643fdb4164caa334581",
-        "signature": "450c8ff8785c8290b5d79ad1ddc7fdb5f8602fa092e1b4d39e1cbb1a34cc9af5",
-        "affectsGlobalScope": false
-      },
-      "./src/repositories/user-credentials.repository.ts": {
-        "version": "4aad0aa3b16b031af982a2b25ad041f82953d71d6b06288b31868d839fbbf529",
-        "signature": "784d00023fbf9616d14e3d0d650d099ef8d04c09f408496086c9893d7ad48da5",
+        "version": "3d2ffe3215d292a8bdcc6fe00ac1ff6a35ee41c2851fd226c7d3602e5bd4591a",
+        "signature": "06ffe7e88222ca4a9d22d617f8190eb497343f2f8a69907c55286d141c463b35",
         "affectsGlobalScope": false
       },
       "./src/repositories/index.ts": {
-        "version": "8fd149724aabc6a4e3b134849773d796882c8034b46a8598bc4ab421b5a1ce69",
-        "signature": "6ed4c61847340973db40f903e531fa5afc3233d7e4c1274cec4bc1bca841b710",
+        "version": "598dcdeedbed700a1ebaeec0b4fca9deab22796468710fd437ac24349998569d",
+        "signature": "5beaa836af26b3f9e0a14c1f07aa981c4c4243526f76845ba6bd09ffba20724a",
         "affectsGlobalScope": false
       },
       "./src/controllers/todo.controller.ts": {
@@ -4161,22 +4141,11 @@
       ],
       "./src/models/index.ts": [
         "./node_modules/tslib/tslib.d.ts",
-        "./src/models/todo.model.ts",
-        "./src/models/user-credentials.model.ts",
-        "./src/models/user.model.ts"
+        "./src/models/todo.model.ts"
       ],
       "./src/models/todo.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./src/models/user-credentials.model.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./src/models/user.model.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./node_modules/tslib/tslib.d.ts",
-        "./src/models/user-credentials.model.ts"
       ],
       "./src/openapi-spec.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
@@ -4185,25 +4154,9 @@
       ],
       "./src/repositories/index.ts": [
         "./node_modules/tslib/tslib.d.ts",
-        "./src/repositories/todo.repository.ts",
-        "./src/repositories/user-credentials.repository.ts",
-        "./src/repositories/user.repository.ts"
+        "./src/repositories/todo.repository.ts"
       ],
       "./src/repositories/todo.repository.ts": [
-        "./node_modules/@loopback/core/dist/index.d.ts",
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./node_modules/tslib/tslib.d.ts",
-        "./src/datasources/index.ts",
-        "./src/models/index.ts"
-      ],
-      "./src/repositories/user-credentials.repository.ts": [
-        "./node_modules/@loopback/core/dist/index.d.ts",
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./node_modules/tslib/tslib.d.ts",
-        "./src/datasources/index.ts",
-        "./src/models/index.ts"
-      ],
-      "./src/repositories/user.repository.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./node_modules/tslib/tslib.d.ts",
@@ -6116,36 +6069,15 @@
         "./src/application.ts"
       ],
       "./src/models/index.ts": [
-        "./src/models/todo.model.ts",
-        "./src/models/user-credentials.model.ts",
-        "./src/models/user.model.ts"
+        "./src/models/todo.model.ts"
       ],
       "./src/models/todo.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
-      "./src/models/user-credentials.model.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts"
-      ],
-      "./src/models/user.model.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./src/models/user-credentials.model.ts"
-      ],
       "./src/repositories/index.ts": [
-        "./src/repositories/todo.repository.ts",
-        "./src/repositories/user-credentials.repository.ts",
-        "./src/repositories/user.repository.ts"
+        "./src/repositories/todo.repository.ts"
       ],
       "./src/repositories/todo.repository.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./src/datasources/index.ts",
-        "./src/models/index.ts"
-      ],
-      "./src/repositories/user-credentials.repository.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./src/datasources/index.ts",
-        "./src/models/index.ts"
-      ],
-      "./src/repositories/user.repository.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./src/datasources/index.ts",
         "./src/models/index.ts"
@@ -6586,13 +6518,9 @@
       "./src/migrate.ts",
       "./src/models/index.ts",
       "./src/models/todo.model.ts",
-      "./src/models/user-credentials.model.ts",
-      "./src/models/user.model.ts",
       "./src/openapi-spec.ts",
       "./src/repositories/index.ts",
       "./src/repositories/todo.repository.ts",
-      "./src/repositories/user-credentials.repository.ts",
-      "./src/repositories/user.repository.ts",
       "./src/sequence.ts"
     ]
   },

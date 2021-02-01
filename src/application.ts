@@ -19,7 +19,7 @@ import {
 } from '@loopback/rest-explorer';
 import {ServiceMixin} from '@loopback/service-proxy';
 import path from 'path';
-import {DbDataSource} from './datasources';
+import {DbDataSource, PdsDataSource} from './datasources';
 import {MySequence} from './sequence';
 export {ApplicationConfig};
 

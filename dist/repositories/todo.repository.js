@@ -16,8 +16,8 @@ let TodoRepository = class TodoRepository extends repository_1.DefaultCrudReposi
     }
 };
 TodoRepository = tslib_1.__decorate([
-    tslib_1.__param(0, core_1.inject('datasources.db')),
-    tslib_1.__metadata("design:paramtypes", [datasources_1.DbDataSource])
+    tslib_1.__param(0, core_1.inject('datasources.pds')),
+    tslib_1.__metadata("design:paramtypes", [datasources_1.PdsDataSource])
 ], TodoRepository);
 exports.TodoRepository = TodoRepository;
 //# sourceMappingURL=todo.repository.js.map
